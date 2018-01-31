@@ -12,6 +12,7 @@
 		C5D85683201E3C3000949EBE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C5D85682201E3C3000949EBE /* Assets.xcassets */; };
 		C5D85686201E3C3000949EBE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C5D85684201E3C3000949EBE /* Main.storyboard */; };
 		C5D85689201E3C3100949EBE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C5D85688201E3C3100949EBE /* main.m */; };
+		C5D85692201E3C5000949EBE /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C5D85691201E3C5000949EBE /* AVFoundation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +26,7 @@
 		C5D85687201E3C3100949EBE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C5D85688201E3C3100949EBE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		C5D8568A201E3C3100949EBE /* mac_screen_and_window_capture.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = mac_screen_and_window_capture.entitlements; sourceTree = "<group>"; };
+		C5D85691201E3C5000949EBE /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -32,6 +34,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C5D85692201E3C5000949EBE /* AVFoundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -43,6 +46,7 @@
 			children = (
 				C5D8567B201E3C3000949EBE /* mac-screen-and-window-capture */,
 				C5D8567A201E3C3000949EBE /* Products */,
+				C5D85690201E3C4F00949EBE /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -68,6 +72,14 @@
 				C5D8568A201E3C3100949EBE /* mac_screen_and_window_capture.entitlements */,
 			);
 			path = "mac-screen-and-window-capture";
+			sourceTree = "<group>";
+		};
+		C5D85690201E3C4F00949EBE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C5D85691201E3C5000949EBE /* AVFoundation.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
